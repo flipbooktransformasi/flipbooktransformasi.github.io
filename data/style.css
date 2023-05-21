@@ -1,0 +1,293 @@
+
+.cover{
+position: absolute;
+width: 1367px;
+height: 910px;
+left: 200px;
+top: 40px;
+background: url(image.png);
+filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+}
+
+.playbtn{
+position: absolute;
+width: 182px;
+height: 225px;
+left: 793px;
+top: 506px;
+}
+
+.coverdepan{
+position: absolute;
+width: 1367px;
+height: 910px;
+left: -1166px;
+top: 40px;
+filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+transform: matrix(-1, 0, 0, 1, 0, 0);
+filter: saturate(50%);
+}
+
+.menuflipback{
+position: absolute;
+width: 1320px;
+height: 879px;
+left: 0px;
+top: 0px;
+
+filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+transform: matrix(1, 0, 0, 1, 0, 0);
+animation-name: menuflipback;
+animation-duration: 1s;
+
+filter: saturate(100%);
+}
+
+
+ @keyframes menuflipback {
+  to {transform: matrix(1, 0, 0, 1, 0, 0); left: 0px;filter: saturate(100%);}
+  from {transform: matrix(-1, 0, 0, 1, 0, 0);left: -920px;filter: saturate(50%);}
+}
+
+.menuflipbg{
+position: absolute;
+width: 1320px;
+height: 879px;
+left: -1120px;
+top: 56px;
+background: white;
+filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.05));
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.menuflip{
+position: absolute;
+width: 1320px;
+height: 879px;
+left: -1120px;
+top: 56px;
+background: whitesmoke;
+filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.4));
+transform: matrix(-1, 0, 0, 1, 0, 0);
+animation-name: menuflip;
+animation-duration: 3s;
+filter: saturate(50%);
+}
+
+
+ @keyframes menuflip {
+  from {transform: matrix(1, 0, 0, 1, 0, 0); left: 200px;filter: saturate(100%);}
+  to {transform: matrix(-1, 0, 0, 1, 0, 0);left: -1120px;filter: saturate(50%);}
+}
+
+
+.coverflip{
+position: absolute;
+width: 1367px;
+height: 910px;
+left: -1166px;
+top: 40px;
+background: url(image.png);
+filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.6));
+transform: matrix(-1, 0, 0, 1, 0, 0);
+animation-name: flip;
+animation-duration: 3s;
+filter: saturate(50%);
+}
+
+
+ @keyframes flip {
+  from {transform: matrix(1, 0, 0, 1, 0, 0); left: 200px;filter: saturate(100%);}
+  to {transform: matrix(-1, 0, 0, 1, 0, 0);left: -1166px;filter: saturate(50%);}
+}
+
+.isi{
+
+position: absolute;
+width: 1320px;
+height: 879px;
+top: 56px;
+left: 200px;
+background: #FFFFFF;
+box-shadow: 12px 4px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.halamanmenu{
+position: absolute;
+width: 1320px;
+height: 879px;
+top: 56px;
+left: 200px;
+background: #FFFFFF;
+box-shadow: 12px 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.btn {
+background-color: white;
+  border: none;
+  color: #78CECF;
+  padding: 24px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+width: 320px;
+left: 1109px;
+
+border-radius: 12px 12px 12px 12px;
+box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.judul{
+position: absolute;
+width: 428px;
+height: 46px;
+left: 445px;
+top: 54px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+color: #000000;
+}
+
+.judul2{
+position: absolute;
+width: 628px;
+height: 46px;
+left: 340px;
+top: 52px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+color: #000000;
+}
+
+.materi{
+position: absolute;
+width: 1120px;
+height: 128px;
+left: 100px;
+top: 184px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 200%;
+color: #525252;
+}
+
+.border{
+box-sizing: border-box;
+position: absolute;
+width: 1240px;
+height: 799px;
+left: 40px;
+top: 40px;
+border: 1px solid #E6E6E6;
+border-radius: 20px;
+}
+
+.burung{
+  top: 160px; 
+  position: absolute; 
+  left: 0px;
+}
+
+.burung2{
+  top: 160px; 
+  position: absolute; 
+  left: 0px;
+  width: 420px;
+}
+.kembali{
+position: absolute;
+width: 210px;
+height: 150px;
+left: 40px;
+top: 670px;
+border-radius: 12px;
+padding: 12px;
+}
+
+.lanjut{
+position: absolute;
+width: 210px;
+height: 150px;
+left: 1056px;
+top: 680px;
+border-radius: 12px;
+padding: 12px;
+
+}
+
+.lanjut2{
+  position: absolute;
+  width: 167px;
+  height: 48px;
+  left: 1056px;
+  top: 79px;
+  border-radius: 12px;
+  padding: 12px;
+  
+  }
+
+.homebtn{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 32px 40px;
+
+position: absolute;
+width: 166px;
+height: 173px;
+left: 1558px;
+top: 361px;
+
+}
+
+.video{
+position: absolute;
+width: 833px;
+height: 469px;
+left: 220px;
+top: 322px;
+padding-left: 160px;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn1 {
+  animation-name: fadeIn;
+  animation-delay: 1s;
+}
+
+.fadeIn2 {
+  animation-name: fadeIn;
+  animation-delay: 1.5s;
+}
+.fadeIn3 {
+  animation-name: fadeIn;
+  animation-delay: 2s;
+}
